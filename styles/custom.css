@@ -184,8 +184,11 @@
 
 /***********************/
 .year { 
-    font-size: 22px;
+    font-size: 14px;
+}
 
+.experiencesSummary {
+    font-size: 14px; 
 }
 
 .work { 
