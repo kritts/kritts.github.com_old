@@ -82,6 +82,10 @@ angular
       .when('/experiences/broad', {
         templateUrl: 'views/broad.html',
         controller: 'BroadCtrl'
+      }) 
+      .when('/experiences/google', {
+        templateUrl: 'views/google.html',
+        controller: 'GoogleCtrl'
       })
       .otherwise({
         redirectTo: '/'

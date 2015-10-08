@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name dsilvaApp.controller:AboutCtrl
+ * @name dsilvaApp.controller:AwardsCtrl
  * @description
- * # ContactCtrl
+ * # AwardsCtrl
  * Controller of the dsilvaApp
  */
 angular.module('dsilvaApp')
