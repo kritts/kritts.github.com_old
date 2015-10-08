@@ -83,10 +83,10 @@ angular
         templateUrl: 'views/broad.html',
         controller: 'BroadCtrl'
       }) 
-      .when('/experiences/google', {
-        templateUrl: 'views/google.html',
-        controller: 'GoogleCtrl'
-      })
+  //    .when('/experiences/google', {
+    //    templateUrl: 'views/google.html',
+      //  controller: 'GoogleCtrl'
+      //})
       .otherwise({
         redirectTo: '/'
       });
