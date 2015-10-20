@@ -42,15 +42,7 @@ angular
       .when('/news', {
         templateUrl: 'views/news.html',
         controller: 'NewsCtrl'
-      })
-      .when('/personal', {
-        templateUrl: 'views/personal.html',
-        controller: 'PersonalCtrl'
-      })
-      .when('/personal/leadership', {
-        templateUrl: 'views/leadership.html',
-        controller: 'LeadershipCtrl'
-      })
+      }) 
       .when('/personal/awards', {
         templateUrl: 'views/awards.html',
         controller: 'AwardsCtrl'
