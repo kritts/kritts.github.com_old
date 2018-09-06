@@ -79,6 +79,16 @@ angular
         templateUrl: 'views/google.html',
         controller: 'GoogleCtrl'
       })
+     .when('/experiences/googleLon', {
+        templateUrl: 'views/google_lon.html',
+        controller: 'GoogleLonCtrl'
+      })
+     .when('/experiences/undp', {
+        templateUrl: 'views/undp.html',
+        controller: 'UNDPCtrl'
+      })
+
+
       .otherwise({
         redirectTo: '/'
       });
